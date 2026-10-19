@@ -1,0 +1,179 @@
+
+[     UTC     ] Logs for agriculture-equipment-seasonal-demand-project.streamlit.app/
+────────────────────────────────────────────────────────────────────────────────────────
+[06:58:47] 🚀 Starting up repository: 'agriculture_equipment_project', branch: 'main', main module: 'agriculture_equipment__Usage And seasonal_demand.py'
+[06:58:47] 🐙 Cloning repository...
+[06:58:47] 🐙 Cloning into '/mount/src/agriculture_equipment_project'...
+
+[06:58:47] 🐙 Cloned repository!
+[06:58:47] 🐙 Pulling code changes from Github...
+[06:58:48] 📦 Processing dependencies...
+
+──────────────────────────────────────── uv ───────────────────────────────────────────
+
+Using uv pip install.
+Using Python 3.14.8 environment at /home/adminuser/venv
+Resolved 41 packages in 534ms
+Prepared 41 packages in 2.27s
+Installed 41 packages in 64ms
+ + altair==6.3.0
+ + anyio==4.15.1
+ + attrs==26.1.0
+ + certifi==2026.7.22
+ + charset-normalizer==3.5.2
+ + click==8.5.0
+ + contourpy==1.4.0
+ + cycler==0.12.1
+ + fonttools==4.67.0[2026-10-16 06:58:51.260185] 
+ + h11==0.16.0
+ + idna==3.20
+ + itsdangerous==2.2.0
+ + jinja2==3.1.6
+ +[2026-10-16 06:58:51.260356]  jsonschema==4.26.0
+ + jsonschema-specifications==2025.9.1
+ + kiwisolver==1.5.1
+ + markupsafe==3.0.4
+ +[2026-10-16 06:58:51.260644]  matplotlib==3.11.2
+ + narwhals==2.27.1
+ + numpy==2.5.4
+ + packaging==26.3[2026-10-16 06:58:51.260894] 
+ + pandas==3.0.6
+ + pillow==12.3.0
+ + protobuf==7.36.2
+ + pyarrow==26.0.0
+ + pydeck==0.9.3[2026-10-16 06:58:51.261055] 
+ + pyparsing==3.3.3
+ + python-dateutil==2.9.0.post0
+ + python-multipart==0.0.32
+ + referencing==0.37.0
+ + requests==2.34.2
+ [2026-10-16 06:58:51.261230] + rpds-py==2026.9.1
+ + seaborn==0.13.2
+ + six==1.17.0
+ + starlette==1.8.0[2026-10-16 06:58:51.261403] 
+ + streamlit==1.66.0
+ + typing-extensions==4.16.0
+ + urllib3==2.8.0
+ + uvicorn==0.54.0[2026-10-16 06:58:51.261556] 
+ + watchdog==6.0.0
+ + websockets==17.2
+Checking if Streamlit is installed
+Found Streamlit version 1.66.0 in the environment
+Detected pyarrow 26.0.0 (known segfault, apache/arrow#50471). Replacing with pyarrow<25.
+Using uv pip install.
+Using Python 3.14.8 environment at /home/adminuser/venv
+Resolved 1 package in 36ms
+Prepared 1 package in 749ms
+Uninstalled 1 package in 18ms
+Installed 1 package in 29ms
+ -[2026-10-16 06:58:54.558694]  pyarrow==26.0.0
+ + pyarrow==24.0.0
+Installing rich for an improved exception logging
+Using uv pip install.
+Using Python 3.14.8 environment at /home/adminuser/venv
+Resolved 4 packages in 127ms
+Prepared 4 packages in 120ms
+Installed 4 packages in 14ms
+ + [2026-10-16 06:58:55.701272] markdown-it-py==4.2.0
+ + mdurl==0.1.2
+ + pygments==2.21.0
+ + rich==15.0.0
+
+────────────────────────────────────────────────────────────────────────────────────────
+
+[06:58:56] 🐍 Python dependencies were installed from /mount/src/agriculture_equipment_project/requirements.txt using uv.
+Check if streamlit is installed
+Streamlit is already installed
+[06:58:58] 📦 Processed dependencies!
+2026-10-16 06:58:59.605 Uvicorn server started on :::8501
+
+
+
+────────────────────── Traceback (most recent call last) ───────────────────────
+  /home/adminuser/venv/lib/python3.14/site-packages/streamlit/runtime/scriptru  
+  nner/exec_code.py:136 in exec_func_with_error_handling                        
+                                                                                
+  /home/adminuser/venv/lib/python3.14/site-packages/streamlit/runtime/scriptru  
+  nner/script_runner.py:924 in code_to_exec                                     
+                                                                                
+  /mount/src/agriculture_equipment_project/agriculture_equipment__Usage And     
+  seasonal_demand.py:20 in <module>                                             
+                                                                                
+     17 import matplotlib.pyplot as plt                                         
+     18 import seaborn as sns                                                   
+     19                                                                         
+  ❱  20 from IPython.display import display                                     
+     21                                                                         
+     22 # Graph settings                                                        
+     23 sns.set_theme(style="whitegrid")                                        
+────────────────────────────────────────────────────────────────────────────────
+ModuleNotFoundError: No module named 'IPython'
+────────────────────── Traceback (most recent call last) ───────────────────────
+  /home/adminuser/venv/lib/python3.14/site-packages/streamlit/runtime/scriptru  
+  nner/exec_code.py:136 in exec_func_with_error_handling                        
+                                                                                
+  /home/adminuser/venv/lib/python3.14/site-packages/streamlit/runtime/scriptru  
+  nner/script_runner.py:924 in code_to_exec                                     
+                                                                                
+  /mount/src/agriculture_equipment_project/agriculture_equipment__Usage And     
+  seasonal_demand.py:20 in <module>                                             
+                                                                                
+     17 import matplotlib.pyplot as plt                                         
+     18 import seaborn as sns                                                   
+     19                                                                         
+  ❱  20 from IPython.display import display                                     
+     21                                                                         
+     22 # Graph settings                                                        
+     23 sns.set_theme(style="whitegrid")                                        
+────────────────────────────────────────────────────────────────────────────────
+ModuleNotFoundError: No module named 'IPython'
+────────────────────── Traceback (most recent call last) ───────────────────────
+  /home/adminuser/venv/lib/python3.14/site-packages/streamlit/runtime/scriptru  
+  nner/exec_code.py:136 in exec_func_with_error_handling                        
+                                                                                
+  /home/adminuser/venv/lib/python3.14/site-packages/streamlit/runtime/scriptru  
+  nner/script_runner.py:924 in code_to_exec                                     
+                                                                                
+  /mount/src/agriculture_equipment_project/agriculture_equipment__Usage And     
+  seasonal_demand.py:20 in <module>                                             
+                                                                                
+     17 import matplotlib.pyplot as plt                                         
+     18 import seaborn as sns                                                   
+     19                                                                         
+  ❱  20 from IPython.display import display                                     
+     21                                                                         
+     22 # Graph settings                                                        
+     23 sns.set_theme(style="whitegrid")                                        
+────────────────────────────────────────────────────────────────────────────────
+ModuleNotFoundError: No module named 'IPython'
+[07:07:55] 🐙 Pulling code changes from Github...
+[07:07:55] 📦 Processing dependencies...
+[07:07:55] 📦 Processed dependencies!
+=================================================================
+AGRICULTURE EQUIPMENT USAGE AND SEASONAL DEMAND
+=================================================================
+
+DATASET CREATED
+Total records: 1200
+States: 10
+Equipment types: 10
+────────────────────── Traceback (most recent call last) ───────────────────────
+  /home/adminuser/venv/lib/python3.14/site-packages/streamlit/runtime/scriptru  
+  nner/exec_code.py:136 in exec_func_with_error_handling                        
+                                                                                
+  /home/adminuser/venv/lib/python3.14/site-packages/streamlit/runtime/scriptru  
+  nner/script_runner.py:924 in code_to_exec                                     
+                                                                                
+  /mount/src/agriculture_equipment_project/agriculture_equipment__Usage And     
+  seasonal_demand.py:111 in <module>                                            
+                                                                                
+    108 print("\nDATASET CREATED")                                              
+    109 print("Total records:", len(df))                                        
+    110 print("States:", df["State"].nunique())                                 
+  ❱ 111 print("Equipment types:", df["Equipment"].nunique())                    
+    112                                                                         
+    113 display(df.head(10))                                                    
+    114                                                                         
+────────────────────────────────────────────────────────────────────────────────
+NameError: name 'display' is not defined
+[07:07:57] 🔄 Updated app!
